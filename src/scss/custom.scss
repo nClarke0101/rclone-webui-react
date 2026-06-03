@@ -1,0 +1,14 @@
+// Apply CSS variables to components
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  background-color: var(--secondary-bg);
+  border-color: var(--border-color);
+  color: var(--primary-text);
+}
+
+// Add more component-specific dark mode styles here
